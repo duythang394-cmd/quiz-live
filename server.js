@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 3000;
 const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD;
 const DATA_DIR = process.env.DATA_DIR || path.join(__dirname, 'data');
 const STATE_FILE = path.join(DATA_DIR, 'state.json');
-const QUESTION_SECONDS = 15;
+const QUESTION_SECONDS = 8;
 const QUESTION_COUNT = 30;
 
 if (!ADMIN_PASSWORD) {
